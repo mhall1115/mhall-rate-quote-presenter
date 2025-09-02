@@ -1,0 +1,25 @@
+{
+  "name": "smart-retail-rate-quotes",
+  "private": true,
+  "version": "1.0.0",
+  "homepage": "https://mhall1115.github.io/mhall-rate-quote-presenter/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview --port 4173 --strictPort",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.1.0-beta-94eed63c49-20240404",
+    "react-dom": "^19.1.0-beta-94eed63c49-20240404",
+    "@google/genai": "^1.16.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.0",
+    "gh-pages": "^6.1.1"
+  }
+}

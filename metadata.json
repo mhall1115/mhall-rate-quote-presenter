@@ -1,0 +1,6 @@
+{
+  "name": " Rate Quote Presenter",
+  "description": "A tool for Mortgage Loan Officers to quickly generate, calculate, and manage mortgage quote summaries for borrowers. Supports manual entry and CSV imports.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
